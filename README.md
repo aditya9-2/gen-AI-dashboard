@@ -29,13 +29,25 @@ The application uses Redux Toolkit for state management with the following struc
 
 ## Getting Started
 
-1. Install dependencies:
+1. clone the project:
+
+```bash
+  git clone https://github.com/aditya9-2/gen-AI-dashboard.git
+```
+
+2. go to project folder:
+
+```bash
+  cd gen-AI-dashboard
+```
+
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the development server:
+4. Start the development server:
    ```bash
    npm run dev
    ```
