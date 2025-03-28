@@ -93,7 +93,7 @@ export const ResultsDisplay: React.FC = () => {
                                     outerRadius={80}
                                     label
                                 >
-                                    {latestQuery.result.data.map((entry, index) => (
+                                    {latestQuery.result.data.map((_entry, index) => (
                                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                     ))}
                                 </Pie>
