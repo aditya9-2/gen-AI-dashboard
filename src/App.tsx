@@ -2,7 +2,7 @@
 import { Provider } from "react-redux"
 import { store } from './store';
 import { Brain } from "lucide-react";
-import { QueryHistory } from "./components/QueryHistort";
+import { QueryHistory } from "./components/QueryHistory";
 import { QueryInput } from "./components/QueryInput";
 import { ResultsDisplay } from "./components/ResultsDisplay";
 const App = () => {
