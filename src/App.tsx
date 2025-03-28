@@ -5,6 +5,7 @@ import { Brain } from "lucide-react";
 import { QueryHistory } from "./components/QueryHistory";
 import { QueryInput } from "./components/QueryInput";
 import { ResultsDisplay } from "./components/ResultsDisplay";
+import { Footer } from "./components/Footer";
 const App = () => {
   return (
     <Provider store={store}>
@@ -26,7 +27,7 @@ const App = () => {
           <QueryHistory />
         </main>
 
-
+        <Footer />
       </div>
 
 
