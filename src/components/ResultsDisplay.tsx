@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '../store';
 import { AlertCircle } from 'lucide-react'
-import { PieChartComponent } from "./charts/pieChartComponent"
+import { PieChartComponent } from "./charts/PieChartComponent"
 import { LineChartComponent } from './charts/LineChartComponent';
 import { BarChartComponent } from './charts/BarChartComponent';
 
