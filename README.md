@@ -43,14 +43,15 @@ The application uses Redux Toolkit for state management with the following struc
 
 3. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+
+```bash
+  npm run dev
+```
 
 ## Built With
 
